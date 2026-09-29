@@ -1,0 +1,8 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="../KnaulCorp.PersonalTools.Worklog.Domain/KnaulCorp.PersonalTools.Worklog.Domain.csproj" />
+    <PackageReference Include="LiteBus.Commands.Extensions.Microsoft.DependencyInjection" Version="6.0.2" />
+    <PackageReference Include="LiteBus.Queries.Extensions.Microsoft.DependencyInjection" Version="6.0.2" />
+    <PackageReference Include="Dapper" Version="2.1.89" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/KnaulCorp.PersonalTools.Worklog.Application/KnaulCorp.PersonalTools.Worklog.Application.csproj" />
+    <Project Path="src/KnaulCorp.PersonalTools.Worklog.Cli/KnaulCorp.PersonalTools.Worklog.Cli.csproj" />
+    <Project Path="src/KnaulCorp.PersonalTools.Worklog.Domain/KnaulCorp.PersonalTools.Worklog.Domain.csproj" />
+    <Project Path="src/KnaulCorp.PersonalTools.Worklog.Infrastructure/KnaulCorp.PersonalTools.Worklog.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/KnaulCorp.PersonalTools.Worklog.Application.Tests/KnaulCorp.PersonalTools.Worklog.Application.Tests.csproj" />
+    <Project Path="tests/KnaulCorp.PersonalTools.Worklog.Cli.Tests/KnaulCorp.PersonalTools.Worklog.Cli.Tests.csproj" />
+    <Project Path="tests/KnaulCorp.PersonalTools.Worklog.Domain.Tests/KnaulCorp.PersonalTools.Worklog.Domain.Tests.csproj" />
+    <Project Path="tests/KnaulCorp.PersonalTools.Worklog.Infrastructure.Tests/KnaulCorp.PersonalTools.Worklog.Infrastructure.Tests.csproj" />
+  </Folder>
+</Solution>

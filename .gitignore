@@ -40,6 +40,10 @@ ScaffoldingReadMe.txt
 .env
 
 # Others
+.vs/
+.tools/
+TestResults/
+*.local.json
 ~$*
 *~
 CodeCoverage/

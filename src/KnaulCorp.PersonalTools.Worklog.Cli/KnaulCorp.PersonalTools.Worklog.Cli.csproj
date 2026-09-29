@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>worklog</ToolCommandName>
+    <PackageId>KnaulCorp.PersonalTools.Worklog</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>KnaulCorp</Authors>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Description>Registro pessoal de atividades e relatórios Excel.</Description>
+    <UserSecretsId>knaulcorp-personaltools-worklog</UserSecretsId>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../KnaulCorp.PersonalTools.Worklog.Application/KnaulCorp.PersonalTools.Worklog.Application.csproj" />
+    <ProjectReference Include="../KnaulCorp.PersonalTools.Worklog.Infrastructure/KnaulCorp.PersonalTools.Worklog.Infrastructure.csproj" />
+    <PackageReference Include="Spectre.Console" Version="0.55.0" />
+    <PackageReference Include="Spectre.Console.Cli" Version="0.55.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.12" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.12" PrivateAssets="all" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="appsettings*.json" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <None Include="../../README.md" Pack="true" PackagePath="/" />
+  </ItemGroup>
+</Project>
